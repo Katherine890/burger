@@ -2,9 +2,9 @@ require("dotenv").config();
 
 var express = require("express");
 
-var app = express();
-
 var PORT = process.env.PORT || 3000;
+
+var app = express();
 
 // Sets up the Express app to handle data parsing
 //app.use(express.static("public"));
