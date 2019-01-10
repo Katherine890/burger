@@ -25,7 +25,7 @@ function printQuestionMarks(num) {
           value = "'" + value + "'";
         }
         // e.g. {name: 'Lana Del Grey'} => ["name='Lana Del Grey'"]
-        // e.g. {sleepy: true} => ["sleepy=true"]
+        // e.g. {devoured: true} => ["devoured=true"]
         arr.push(key + "=" + value);
       }
     }
@@ -65,7 +65,7 @@ function printQuestionMarks(num) {
         cb(result);
       });
     },
-    // An example of objColVals would be {name: panther, sleepy: true}
+    // An example of objColVals would be {name: hamburger, devoured: true}
     update: function(table, objColVals, condition, cb) {
       var queryString = "UPDATE " + table;
   
