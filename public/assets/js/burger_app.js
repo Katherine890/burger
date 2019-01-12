@@ -1,5 +1,6 @@
 $(function () {
   $(".devour-it").on("click", function (event) {
+    $(".devour-it").hide();
     var id = $(this).data("id");
     var devourIt = $(this).attr("data-devourIt");
     console.log("click");
