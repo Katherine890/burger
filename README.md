@@ -19,7 +19,7 @@ Users may get started by first clicking on the deployed link below. To add a bur
 
 
 ## Repo Link
-[GitHub]
+[GitHub]https://github.com/Katherine890/burger
 
 ## Deployed Link
-[Heroku]
+[Heroku]https://sheltered-chamber-93866.herokuapp.com/
